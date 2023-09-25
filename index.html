@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css do Projeto-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--JavaScript do Projeto-->
+    <script src="js/estilos.js" defer></script>
+    <!--FontAwesome do Projeto-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>FormularioDarkMode</title>
+</head>
+<body>
+    <form id="myForm">
+        <header>
+            <h2 id="titulo">Login</h2>
+            <i id="night" class="fa-solid fa-moon" style="color: #483541; cursor: pointer;"></i>
+            <i id="day" class="fa-solid fa-sun" style="color: #ded6d4;"></i>
+        </header>
+        <footer>
+            <label id="um" for="usuario">Username</label>
+            <input name="usuario" id="usuario" type="text" placeholder="Digite seu Usuario" required>
+            <label id="dois" for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu Email" required>
+            <label id="tres" for="senha">Password</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua Senha" required>
+        </footer>
+        <aside>
+            <button>
+                Entrar
+            </button>
+        </aside>
+    </form>
+</body>
+</html>

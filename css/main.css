@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(16, 1, 240);
+  background: linear-gradient(90deg, rgb(16, 1, 240) 0%, rgb(255, 0, 245) 100%);
+}
+
+form {
+  margin-top: 30px;
+  margin: 7rem auto;
+  display: block;
+  width: 400px;
+  height: 350px;
+  background-color: #ded6d4;
+  border-radius: 10px;
+  box-shadow: 2px 0px 2px 1px;
+  transition: ease-in-out 1.5s;
+}
+form header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form header h2 {
+  font-family: serif;
+  margin-top: 13px;
+}
+form header #night {
+  margin-left: 2em;
+  cursor: pointer;
+}
+form header #day {
+  margin-left: 2em;
+  cursor: pointer;
+}
+form footer label {
+  display: block;
+  text-align: center;
+  font-family: serif;
+}
+form footer input {
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+form footer #usuario {
+  margin-top: 10px;
+}
+form footer #email {
+  margin-top: 10px;
+}
+form footer #senha {
+  margin-top: 10px;
+}
+form aside button {
+  margin: auto;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  form {
+    width: 200px;
+    height: 300px;
+  }
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+input:focus {
+  outline: none;
+}/*# sourceMappingURL=main.css.map */

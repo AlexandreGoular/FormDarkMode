@@ -1,0 +1,98 @@
+@import 'variaveis';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(16,1,240);
+    background: linear-gradient(90deg, rgba(16,1,240,1) 0%, rgba(255,0,245,1) 100%);
+}
+
+form {
+    margin-top: 30px;
+    margin: 7rem auto;
+    display: block;
+    width: 400px;
+    height: 350px;
+    background-color: $fundoClaro;
+    border-radius: 10px;
+    box-shadow: 2px 0px 2px 1px;
+    transition:  ease-in-out 1.5s;
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-family: serif;
+            margin-top: 13px;
+        }
+
+        #night {
+            margin-left: 2em;
+            cursor: pointer;
+        }
+
+        #day {
+            margin-left: 2em;
+            cursor: pointer;
+        }
+    }
+
+    footer {
+        
+        label {
+            display: block;
+            text-align: center;
+            font-family: serif;
+        }
+
+            input {
+                display: block;
+                margin: auto;
+                padding: 5px;
+            }
+
+            #usuario {
+                margin-top: 10px;
+            }
+
+            #email {
+                margin-top: 10px;
+            }
+
+            #senha {
+                margin-top: 10px;
+            }
+    }
+
+    aside {
+        button {
+            margin: auto;
+            display: block;
+            padding: 10px;
+            margin-top: 20px;
+            width: 100px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    form {
+        width: 200px;
+        height: 300px;
+    }
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+input:focus {
+    outline: none;
+}
